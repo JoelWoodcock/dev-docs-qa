@@ -1,0 +1,64 @@
+nav.main-menu {
+	width:20rem;
+	display: inline-block;
+	margin-top:0.35rem;
+	transition: left 250ms ease-out;
+	float: left;
+
+	ul {
+		list-style: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	> ul > li > span {
+		font-weight: 600;
+		font-size: 1.1rem;
+		color: lighten(@color-black, 30%);
+		text-decoration: none;
+		display: block;
+		padding-bottom: 0.5rem;
+		i {
+			padding-right: 1.7rem;
+		}
+	}
+	> ul > li > ul > li > a {
+		color: darken(#428bca, 5%);
+		text-decoration: none;
+		display: block;
+		font-weight: 400;
+		padding:0.25rem 0;
+		line-height: 1.25;
+	}
+	> ul > li > ul {
+		padding: 0 0 0 1.75rem;
+	}
+
+	.details {
+		font-size: 0.85rem;
+		color: lighten(@color-black, 40%);
+		line-height: 1.3rem;
+	}
+
+	@media (max-width: 70rem) {
+		position: fixed;
+		left: -20rem;
+		top:-0.5rem;
+		display: block;
+		height: 100%;
+		overflow-y: scroll;
+		background-color: #f7f7f7;
+		transition: left 250ms ease-in;
+		z-index: 1000;
+
+		ul,
+		.logo {
+			padding-left:1rem;
+			padding-top:0.5rem;
+		}
+
+		&.active {
+			left:0;
+		}
+	}
+}

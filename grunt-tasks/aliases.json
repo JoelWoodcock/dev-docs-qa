@@ -1,0 +1,14 @@
+{
+	"default": ["build"],
+
+	"compile-local": [
+		"less",
+		"babel",
+		"concat",
+		"notify:finished"
+	],
+
+	"build": [	
+		"compile-local"
+	]
+}

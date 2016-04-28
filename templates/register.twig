@@ -1,0 +1,18 @@
+{% include 'bbug::components/header.twig' %}
+
+<form action="/register" method="POST" class="register">
+  {% for error in errors %}
+    <div class="errors">
+      {{ error.detail }}
+    </div>
+  {% endfor %}
+	<label for="username">Username</label>
+	<input type="text" name="username">
+	<label for="email">Email</label>
+	<input type="email" name="email">
+	<label for="password">Password</label>
+	<input type="password" name="password">
+	<input type="submit">
+</form>
+
+{% include 'bbug::components/footer.twig' %}
