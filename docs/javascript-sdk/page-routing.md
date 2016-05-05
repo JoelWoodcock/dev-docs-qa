@@ -4,6 +4,8 @@ The JavaScript SDK has a page routing system that automatically follows a set of
 
 In this guide, we will be taking a newly initialised widget that we created and customise the default templates which it invokes.
 
+[needs some explanation of where the bb-widget directive is/how to get access to the files]
+
 To start let's look at our `bb-widget` directive
 
 ```js
