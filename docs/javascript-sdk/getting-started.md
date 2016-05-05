@@ -1,4 +1,4 @@
-See commit comment
+See commit comment - probably needs a guide on how to edit the widget instead of this
 
 # How it Works
 
