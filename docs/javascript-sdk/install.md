@@ -6,6 +6,7 @@ Using Node and Yeoman, you can create a stand-alone booking service that include
 you will need to install the following dependencies via the [command prompt] terminal before getting started. Once you've installed node [+ git] you can install the rest of the dependencies with `npm install -g name_of_dependency`
 
 - [node.js](https://nodejs.org/en/)
+- [Git]
 - Yeoman Generator `npm install -g yo`
 - Gulp `npm install -g gulp-cli`
 - Bower `npm install -g bower`
