@@ -1,5 +1,16 @@
 Probably needs a guide on how to edit the widget instead of this i.e. how to make a service/events journey, simple routing changes, basic layout changes, etc. 
 
+Questions:
+What do I do now that I'm hosting my widget locally? - Edit it
+How do I edit it? - Open it in a text editor - Which?, what's that?
+What files do what? - explain file structure - where can I edit what?
+How do I change my journey route? - What pages work with what company/setup? - How do I make a services/event widget?
+How do I edit the layout/structure of each page?
+How do I edit the text on each page?
+How do I edit the colours/fonts/whatever?
+How do I add my logos/pictures/web links to each page?
+What do I do with it once I have finished editing it? - host it somewhere!
+
 # How it Works
 
 The BookingBug JavaScript API is in fact built on top of the Google library [AngularJS](https://angularjs.org/).
@@ -24,6 +35,7 @@ A key part of how BookingBug makes this possible without using iframes is to use
 ## Further Reading
 You won't need to know everything about angular and handle bars to use the SDK but you may want to find out more.
 
+- [Learn how to HTML/CSS/whatever here: https://www.codecademy.com/learn]
 - [Learn more about Handlebars](http://code.tutsplus.com/tutorials/an-introduction-to-handlebars--net-27761)
 - [Learn more about Angular](https://www.codecademy.com/learn/learn-angularjs)
 - [Learn more about HTML Partials](http://handlebarsjs.com/partials.html)
