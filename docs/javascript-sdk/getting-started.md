@@ -1,4 +1,4 @@
-See commit comment - probably needs a guide on how to edit the widget instead of this
+Probably needs a guide on how to edit the widget instead of this i.e. how to make a service/events journey, simple routing changes, basic layout changes, etc. 
 
 # How it Works
 
